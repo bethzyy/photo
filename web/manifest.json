@@ -1,0 +1,41 @@
+{
+    "name": "照片整理工具",
+    "short_name": "照片整理",
+    "description": "批量选择和移动照片到不同的子文件夹",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "display_override": ["window-controls-overlay", "standalone", "browser"],
+    "background_color": "#F5F7FA",
+    "theme_color": "#4A90D9",
+    "orientation": "portrait-primary",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["utilities", "productivity"],
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "选择文件夹",
+            "short_name": "选择",
+            "description": "选择照片文件夹开始整理",
+            "url": "./index.html?action=select",
+            "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "screenshots": [],
+    "related_applications": []
+}

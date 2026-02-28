@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="85" fill="#4A90D9"/>
+  <g fill="white">
+    <!-- 文件夹图标 -->
+    <path d="M107 160 L107 373 Q107 400 134 400 L378 400 Q405 400 405 373 L405 187 Q405 160 378 160 L240 160 L213 133 L134 133 Q107 133 107 160 Z" opacity="0.9"/>
+    <!-- 照片图标 -->
+    <rect x="160" y="200" width="192" height="147" rx="11" fill="#4A90D9"/>
+    <circle cx="208" cy="253" r="21" fill="white"/>
+    <path d="M160 333 L227 267 L267 307 L320 253 L352 293 L352 333 Q352 347 339 347 L173 347 Q160 347 160 333 Z" fill="white"/>
+  </g>
+</svg>
